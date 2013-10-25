@@ -1,1 +1,19 @@
-Facebook Like Box web components
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>&lt;facebook-fanpage&gt;</title>
+
+	<!-- Importing Web Component's Polyfill -->
+	<script src="//cdnjs.cloudflare.com/ajax/libs/polymer/0.0.20130711/polymer.min.js"></script>
+
+	<!-- Importing Custom Elements -->
+	<link rel="import" href="src/facebook-likebox.html">
+</head>
+<body>
+	<facebook-likebox></facebook-likebox>
+  <facebook-likebox href="http://facebook.com/facebook" width="300" height="300" colorscheme="dark" showborder="true" appid="193568224022665"></facebook-likebox>
+  <facebook-likebox href="http://facebook.com/google" width="300" height="500" showfaces="false" showstream="true"></facebook-likebox>
+
+</body>
+</html>
