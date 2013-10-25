@@ -6,7 +6,7 @@ Web Component wrapper for [Facebook's Likebox](https://developers.facebook.com/d
 
 ## Demo
 
-> [Check it live](http://customelements.github.io/boilerplate-element).
+> [Check it live](http://tcelestino.github.io/facebook-likebox/).
 
 ## Usage
 
@@ -30,11 +30,17 @@ Web Component wrapper for [Facebook's Likebox](https://developers.facebook.com/d
 
 ## Options
 
-Attribute  | Options                   | Default             | Description
----        | ---                       | ---                 | ---
-`appid`      | *string*                  | ``               | Your app id
-`bar`      | `abc`, `def`, `ghi` 	   | `foo`               | Lorem ipsum
-`height`   | *int*                     | `100`               | Lorem ipsum
+Attribute      | Options                   | Default             | Description
+---            | ---                       | ---                 | ---
+`appid`        | *int*                     | ``                  | your app id (optional)
+`colorscheme`  | `light`, `dark`           | `light`             | the color scheme for the like box
+`height`       | *int*                     | `300`               | the height of the like box
+`pageslug`     | *string*                  | `github`            | the slug fanpage url (don't use https://facebook.com/)
+`showfaces`    | *boolean*                 | `true`              | show profile photo fanpage user
+`showheader`   | *boolean*                 | `false`             | display Facebook header at the top like box.
+`showstream`   | *boolean*                 | `false`             | display a stream of the latest posts by the Page.
+`showborder`   | *boolean*                 | `false`             | show or not a border around the like box plugin.
+`width`        | *int*                     | `foo`               | the width of the like box
 
 
 ## Contributing
@@ -47,7 +53,7 @@ Attribute  | Options                   | Default             | Description
 
 ## History
 
-* v0.0.1 August 19, 2013
+* v0.0.1 October 25, 2013
 	* Started project using [boilerplate-element](https://github.com/customelements/boilerplate-element)
 
 ## License
