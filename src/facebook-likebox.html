@@ -1,8 +1,8 @@
-<polymer-element name="facebook-likebox" attributes="href width height colorscheme showfaces showheader showstream showborder appid">
+<polymer-element name="facebook-likebox" attributes="pageslug width height colorscheme showfaces showheader showstream showborder appid">
 
 	<template>
 
-    <iframe src="//www.facebook.com/plugins/likebox.php?href={{href}}&amp;width={{width}}&amp;height={{height}}&amp;colorscheme={{colorscheme}}&amp;show_faces={{showfaces}}&amp;header={{showheader}}&amp;stream={{showstream}}&amp;show_border={{showborder}}&amp;appId={{appid}}" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+    <iframe src="//www.facebook.com/plugins/likebox.php?href=https://facebook.com/{{pageslug}}&amp;width={{width}}&amp;height={{height}}&amp;colorscheme={{colorscheme}}&amp;show_faces={{showfaces}}&amp;header={{showheader}}&amp;stream={{showstream}}&amp;show_border={{showborder}}&amp;appId={{appid}}" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
 
 		<style>
         iframe {
@@ -19,12 +19,12 @@
       appid: '',
       colorscheme: 'light',
       height: '300',
-      href: 'http://facebook.com/github',
-			width: '400',     
+      pageslug: 'github',    
       showfaces: 'true',
       showheader: 'false',
       showstream: 'false',
-      showborder: 'false'
+      showborder: 'false',
+      width: '400',
 
 		});
 	</script>
