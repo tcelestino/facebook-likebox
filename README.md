@@ -36,10 +36,10 @@ Attribute      | Options                   | Default             | Description
 `colorscheme`  | `light`, `dark`           | `light`             | the color scheme for the like box
 `height`       | *int*                     | `300`               | the height of the like box
 `pageslug`     | *string*                  | `github`            | the slug fanpage url (don't use https://facebook.com/)
-`showfaces`    | *boolean*                 | `true`              | show profile photo fanpage user
-`showheader`   | *boolean*                 | `false`             | display Facebook header at the top like box.
-`showstream`   | *boolean*                 | `false`             | display a stream of the latest posts by the Page.
-`showborder`   | *boolean*                 | `false`             | show or not a border around the like box plugin.
+`showfaces`    | *string*                 | `true`              | show profile photo fanpage user
+`showheader`   | *string*                 | `false`             | display Facebook header at the top like box.
+`showstream`   | *string*                 | `false`             | display a stream of the latest posts by the Page.
+`showborder`   | *string*                 | `false`             | show or not a border around the like box plugin.
 `width`        | *int*                     | `foo`               | the width of the like box
 
 
