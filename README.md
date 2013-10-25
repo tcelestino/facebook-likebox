@@ -1,8 +1,8 @@
-# &lt;my-element&gt;
+# &lt;facebook-likebox&gt;
 
-TODO: Write a project description
+Web Component wrapper for Facebook's Likebox(https://developers.facebook.com/docs/plugins/like-box-for-pages/) using Polymer.
 
-> Maintained by [Your Name](https://github.com/yourname).
+> Maintained by [Tiago Celestino](https://github.com/tcelestino).
 
 ## Demo
 
@@ -19,20 +19,20 @@ TODO: Write a project description
 2. Import Custom Element:
 
 	```html
-	<link rel="import" href="src/my-element.html">
+	<link rel="import" href="src/facebook-likebox.html">
 	```
 
 3. Start using it!
 
 	```html
-	<my-element></my-element>
+	<facebook-likebox></facebook-likebox>
 	```
 
 ## Options
 
 Attribute  | Options                   | Default             | Description
 ---        | ---                       | ---                 | ---
-`foo`      | *string*                  | `bar`               | Lorem ipsum
+`appid`      | *string*                  | ``               | Your app id
 `bar`      | `abc`, `def`, `ghi` 	   | `foo`               | Lorem ipsum
 `height`   | *int*                     | `100`               | Lorem ipsum
 
