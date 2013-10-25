@@ -1,6 +1,6 @@
 # &lt;facebook-likebox&gt;
 
-Web Component wrapper for Facebook's Likebox(https://developers.facebook.com/docs/plugins/like-box-for-pages/) using Polymer.
+Web Component wrapper for [Facebook's Likebox](https://developers.facebook.com/docs/plugins/like-box-for-pages/) using Polymer.
 
 > Maintained by [Tiago Celestino](https://github.com/tcelestino).
 
